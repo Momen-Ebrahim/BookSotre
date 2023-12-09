@@ -2,6 +2,7 @@ import 'package:book_store/constants.dart';
 import 'package:book_store/views/page1.dart';
 import 'package:book_store/views/page2.dart';
 import 'package:book_store/views/page3.dart';
+import 'package:book_store/views/sign_in.dart';
 import 'package:book_store/views/sign_in_view.dart';
 
 import 'package:book_store/views/sign_up_view.dart';
@@ -71,7 +72,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   onPressed: () {
                                     Navigator.of(context).pushReplacement(
                                         MaterialPageRoute(
-                                            builder: (ctx) => const SignInView()));
+                                            builder: (ctx) => const Signin()));
                                     // final pref =
                                     //     await SharedPreferences.getInstance();
                                     // pref.setBool('showhome', true);

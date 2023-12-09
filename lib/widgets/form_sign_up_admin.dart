@@ -1,5 +1,6 @@
 import 'package:book_store/constants.dart';
 import 'package:book_store/models/sign_up_model.dart';
+import 'package:book_store/views/sign_in.dart';
 import 'package:book_store/views/sign_in_view.dart';
 import 'package:book_store/widgets/custom_button.dart';
 import 'package:book_store/widgets/custom_text_form_field.dart';
@@ -178,7 +179,7 @@ class _FormSignUpAdminState extends State<FormSignUpAdmin> {
                   Navigator.push(
                       context,
                       MaterialPageRoute<void>(
-                        builder: (BuildContext context) => const SignInView(),
+                        builder: (BuildContext context) => const Signin(),
                       ));
                 },
                 child: const Text(
